@@ -12,7 +12,7 @@ getreqs:
 # analyze the dataset
 .PHONY: pythonanalysis
 pythonanalysis:
-	python3  user_provided/python/main.py
+	python3  code/python/main.py
 
 #.PHONY: pdf
 #pdf: pythonanalysis
